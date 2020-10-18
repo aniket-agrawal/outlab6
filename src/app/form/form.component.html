@@ -1,0 +1,37 @@
+<h1 style="color: coral;">Feedback Form</h1>
+<div id="wrapper">
+<form [formGroup]="feedbackForm" (ngSubmit)="onSubmit()">
+    <label>
+        Name:
+        <br>
+        <input type="text" formControlName="name">
+        <br>
+    </label>
+    <br>
+    <label>
+        Email:
+        <br>
+        <input type="text" formControlName="email">
+        <br>
+    </label>
+    <br>
+    <label>
+        Feedback:<br>
+        <input type="radio" id="great" formControlName="feedback" value="Great">
+        <label for="great" style="color: black;">Great</label>
+        <input type="radio" id="okay" formControlName="feedback" value="Okay">
+        <label for="okay" style="color: black;">Okay</label>
+        <input type="radio" id="notgood" formControlName="feedback" value="Not good">
+        <label for="notgood" style="color: black;">Not good</label>
+        <br>
+    </label>
+    <br>
+    <label>
+        Comments:<br>
+        <input type="text" formControlName="comment">
+        <br>
+    </label>
+    <br>
+    <button type="submit" [disabled]="!feedbackForm.valid">Submit</button>
+</form>
+</div>

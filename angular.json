@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "outlab6"
+    }
+  },
+  "defaultProject": "outlab6",
+  "cli": {
+    "analytics": "e96db1fe-1c77-4fdd-8d1b-9134c32cde77"
+  }
 }

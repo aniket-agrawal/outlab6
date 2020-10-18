@@ -1,0 +1,26 @@
+#card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    background-color: rgb(135, 183, 222);
+    padding: 10px;
+    float: left;
+  }
+#card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    background-color: rgb(135, 183, 222);
+    padding: 10px;
+    float: right;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  #wrapper {
+    width: 50%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
